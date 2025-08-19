@@ -1,3 +1,5 @@
+export const runtime = 'nodejs';
+
 import { type NextRequest, NextResponse } from "next/server"
 import { updateIssue, deleteIssue } from "@/lib/google-sheets"
 import { isValidSession } from "@/lib/auth"
